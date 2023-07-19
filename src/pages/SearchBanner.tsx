@@ -23,7 +23,7 @@ function SearchBanner() {
 
   const cacheing = (data: Sick) => {
     setCacheingData(prev => [...prev, data]);
-    setKeyIndex(-2);
+    setKeyIndex(-1);
   };
 
   const fetchData = (query: String) => {
